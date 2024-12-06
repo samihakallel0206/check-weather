@@ -33,7 +33,7 @@ function displayWeather(data) {
   const description = data.weather[0].description;
   //   console.log(description);
   const icon = data.weather[0].icon;
-  console.log(icon);
+  //console.log(icon);
   document.getElementById("city").innerHTML = `Weather in ${city}`;
   document.getElementById("description").innerHTML = `Description: ${description}`;
   document.getElementById("temperature").innerHTML = `Temperature: ${temperature}°C`;
